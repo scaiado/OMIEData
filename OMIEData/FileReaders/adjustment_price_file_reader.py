@@ -47,7 +47,7 @@ class AdjustmentPriceFileReader(OMIEFileReader):
     ]
 
     __dateFormatInFile__ = "%d/%m/%Y"
-    __localeInFile__ = "en_DK.UTF-8"
+    __localeInFile__ = "en_US.UTF-8"
 
     def __init__(self, types=None):
         self.conceptsToLoad = (
