@@ -40,7 +40,7 @@ class MarginalPriceFileReader(OMIEFileReader):
                              'H21', 'H22','H23', 'H24', "H25"]
 
     __dateFormatInFile__ = '%d/%m/%Y'
-    __localeInFile__ = "en_DK.UTF-8"
+    __localeInFile__ = "en_US.UTF-8"
 
     def __init__(self, types=None):
         self.conceptsToLoad = [v for v in DataTypeInMarginalPriceFile] if not types else types
